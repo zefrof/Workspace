@@ -1,0 +1,39 @@
+#import <stdio.h>
+
+int main(int argc, char** argv){
+	int randNum = 0;
+
+	if(argc == 2){
+		randNum = argv[1];
+	} else (){
+
+	}
+
+	int guess = 0;
+	int guessCount = 0;
+	while(guess != randNum){
+		scanf("%d", guess);
+
+		if(guess == randNum){
+			printf("You nailed it!\n");
+			printf("It took you %d guesses.", guessCount);
+		}else if(guess == randNum + 1 || guess == randNum - 1){
+			printf("You entered %d.", guess);
+			printf("On fire.");
+		} else if(guess < randNum + 5 && guess > randNum + 2 ||
+				guess > randNum - 5 && guess < randNum - 2){
+			printf("You entered %d.", guess);
+			printf("Hot.");
+		} else if (){
+			printf("You entered %d.", guess);
+			printf("Getting warmer.");
+		} else if(){
+			printf("You entered %d.", guess);
+			printf("Cold.");
+		} else {
+			printf("You entered %d.", guess);
+			printf("Ice cold.");
+		}
+		guessCount++;
+	}
+}

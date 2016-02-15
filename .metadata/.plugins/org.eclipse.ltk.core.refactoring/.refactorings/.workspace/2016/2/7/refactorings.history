@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;CS1141 Program 2/GreedyPath.c&apos;" deleteContents="false" description="Delete resource &apos;CS1141 Program 2/GreedyPath.c&apos;" element1="/CS1141 Program 2/GreedyPath.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1455060233162"/>&#x0A;<refactoring comment="Rename resource &apos;CS1141 Program 2&apos; to &apos;Program 2 Number Hunt&apos;" description="Rename resource &apos;CS1141 Program 2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/CS1141 Program 2" name="Program 2 Number Hunt" stamp="1455060480246" updateReferences="true"/>
+</session>

@@ -1,0 +1,1564 @@
+17:00:26 **** Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+../EquationPlotter.c:13:6: error: definition of variable with array type needs an explicit size or an initializer
+        int funcArray[];
+            ^
+1 error generated.
+make: *** [EquationPlotter.o] Error 1
+17:01:00 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+../EquationPlotter.c:14:40: warning: format specifies type 'int *' but the argument has type 'int (*)[50]' [-Wformat]
+        scanf("%d, %d %d", &gWidth, &gHeight, &funcArray);
+                      ~~                      ^~~~~~~~~~
+1 warning generated.
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+17:02:36 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+make: Nothing to be done for `all'.
+17:05:39 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+make: Nothing to be done for `all'.
+17:07:17 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+../EquationPlotter.c:14:39: warning: format specifies type 'int *' but the argument has type 'int (*)[50]' [-Wformat]
+        scanf("%d %d %d", &gWidth, &gHeight, &funcArray);
+                     ~~                      ^~~~~~~~~~
+../EquationPlotter.c:16:21: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+        printf("%d %d %d", &gWidth, &gHeight, &funcArray);
+                ~~         ^~~~~~~
+../EquationPlotter.c:16:30: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+        printf("%d %d %d", &gWidth, &gHeight, &funcArray);
+                   ~~               ^~~~~~~~
+../EquationPlotter.c:16:40: warning: format specifies type 'int' but the argument has type 'int (*)[50]' [-Wformat]
+        printf("%d %d %d", &gWidth, &gHeight, &funcArray);
+                      ~~                      ^~~~~~~~~~
+4 warnings generated.
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+17:08:37 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+../EquationPlotter.c:14:39: warning: format specifies type 'int *' but the argument has type 'int (*)[50]' [-Wformat]
+        scanf("%d %d %d", &gWidth, &gHeight, &funcArray);
+                     ~~                      ^~~~~~~~~~
+../EquationPlotter.c:16:38: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+        printf("%d %d %d", gWidth, gHeight, funcArray);
+                      ~~                    ^~~~~~~~~
+2 warnings generated.
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+14:14:48 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+../EquationPlotter.c:18:38: warning: format specifies type 'char *' but the argument has type 'char' [-Wformat]
+        printf("%d %d %s", gWidth, gHeight, funcVal);
+                      ~~                    ^~~~~~~
+                      %c
+1 warning generated.
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+14:15:04 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+make: Nothing to be done for `all'.
+14:15:26 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+../EquationPlotter.c:18:38: warning: format specifies type 'char *' but the argument has type 'char' [-Wformat]
+        printf("%d %d %s", gWidth, gHeight, funcVal);
+                      ~~                    ^~~~~~~
+                      %c
+1 warning generated.
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+14:16:47 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+../EquationPlotter.c:13:7: error: definition of variable with array type needs an explicit size or an initializer
+        char funcVal[];
+             ^
+1 error generated.
+make: *** [EquationPlotter.o] Error 1
+14:17:19 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+../EquationPlotter.c:14:39: warning: format specifies type 'char *' but the argument has type 'char (*)[1]' [-Wformat]
+        scanf("%d %d %s", &gWidth, &gHeight, &funcVal);
+                     ~~                      ^~~~~~~~
+1 warning generated.
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+14:17:31 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+make: Nothing to be done for `all'.
+14:17:41 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+make: Nothing to be done for `all'.
+14:19:18 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+make: Nothing to be done for `all'.
+14:32:45 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+../EquationPlotter.c:12:5: error: second parameter of 'main' (argument array) must be of type 'char **'
+int main(int argc, int argu, char** argv) {
+    ^
+../EquationPlotter.c:17:10: error: too few arguments to function call, expected at least 1, have 0
+                printf();
+                ~~~~~~ ^
+2 errors generated.
+make: *** [EquationPlotter.o] Error 1
+14:37:02 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+14:42:01 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+14:50:04 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+../EquationPlotter.c:18:20: error: expected expression
+                printf("y = %s", char[0]);
+                                 ^
+../EquationPlotter.c:20:21: error: expected expression
+                        printf("%sx^%d", char[i], i);
+                                         ^
+2 errors generated.
+make: *** [EquationPlotter.o] Error 1
+14:53:22 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+../EquationPlotter.c:18:17: error: invalid operands to binary expression ('char *' and 'char *')
+                printf("y = " + "%s", argv[0]);
+                       ~~~~~~ ^ ~~~~
+../EquationPlotter.c:20:16: error: invalid operands to binary expression ('char *' and 'char *')
+                        printf("%s" + "x^" + "%d", argv[i], i);
+                               ~~~~ ^ ~~~~
+2 errors generated.
+make: *** [EquationPlotter.o] Error 1
+15:03:39 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+15:04:57 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+15:05:10 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+15:05:21 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+15:06:21 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+../EquationPlotter.c:17:23: warning: format specifies type 'int' but the argument has type 'char *' [-Wformat]
+                printf("y = %d + ", argv[1]);
+                            ~~      ^~~~~~~
+                            %s
+../EquationPlotter.c:19:24: warning: format specifies type 'int' but the argument has type 'char *' [-Wformat]
+                        printf("%dx^%d + ", argv[i], i -1);
+                                ~~          ^~~~~~~
+                                %s
+2 warnings generated.
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+15:06:31 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+15:09:28 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+../EquationPlotter.c:17:23: warning: format specifies type 'char *' but the argument has type 'double' [-Wformat]
+                printf("y = %s + ", atof(argv[1]));
+                            ~~      ^~~~~~~~~~~~~
+                            %f
+1 warning generated.
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+15:09:38 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+../EquationPlotter.c:17:23: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                printf("y = %d + ", atof(argv[1]));
+                            ~~      ^~~~~~~~~~~~~
+                            %f
+1 warning generated.
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+15:12:54 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+../EquationPlotter.c:18:10: error: passing 'double' to parameter of incompatible type 'const char *'
+                printf(one);
+                       ^~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/include/stdio.h:259:36: note: passing argument to parameter here
+int      printf(const char * __restrict, ...) __printflike(1, 2);
+                                       ^
+1 error generated.
+make: *** [EquationPlotter.o] Error 1
+15:13:11 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+../EquationPlotter.c:18:15: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                printf("%d",one);
+                        ~~  ^~~
+                        %f
+1 warning generated.
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+15:13:22 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+../EquationPlotter.c:18:17: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                printf("%d\n",one);
+                        ~~    ^~~
+                        %f
+1 warning generated.
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+15:16:44 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+../EquationPlotter.c:18:17: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                printf("%d\n",one);
+                        ~~    ^~~
+                        %f
+1 warning generated.
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+15:18:03 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+../EquationPlotter.c:18:17: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                printf("%d\n",foo);
+                        ~~    ^~~
+                        %f
+1 warning generated.
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+15:20:25 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+15:20:45 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+15:21:02 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+15:22:06 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+15:22:17 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+15:22:22 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+15:24:31 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+../EquationPlotter.c:19:17: error: expected ';' after expression
+                        printf(" + ")
+                                     ^
+                                     ;
+1 error generated.
+make: *** [EquationPlotter.o] Error 1
+15:24:39 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+15:31:15 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -std=c99 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+15:52:32 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -std=c99 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+15:53:05 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -std=c99 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+18:53:13 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -std=c99 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+../EquationPlotter.c:29:20: warning: ordered comparison between pointer and integer ('int' and 'char *')
+                for(int i = 0; i < argv[2]; i++){
+                               ~ ^ ~~~~~~~
+../EquationPlotter.c:30:31: error: invalid operands to binary expression ('char *' and 'int')
+                        for(int j = 0; j < argv[1] * 2; j++){
+                                           ~~~~~~~ ^ ~
+1 warning and 1 error generated.
+make: *** [EquationPlotter.o] Error 1
+19:07:29 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -std=c99 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+19:09:47 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -std=c99 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+../EquationPlotter.c:41:4: warning: implicit declaration of function 'prinf' is invalid in C99 [-Wimplicit-function-declaration]
+                        prinf("\n");
+                        ^
+1 warning generated.
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Undefined symbols for architecture x86_64:
+  "_prinf", referenced from:
+      _main in EquationPlotter.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [CS1141 Program 1] Error 1
+19:10:22 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -std=c99 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+19:13:47 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -std=c99 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+19:14:08 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -std=c99 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+19:14:23 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -std=c99 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+19:14:40 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -std=c99 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+15:30:23 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+make: Nothing to be done for `all'.
+14:44:47 **** Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -std=c99 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+15:58:14 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -std=c99 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+../EquationPlotter.c:35:27: error: invalid operands to binary expression ('char *' and 'int')
+                int funcXValues[argv[3] * 2 + 1];
+                                ~~~~~~~ ^ ~
+../EquationPlotter.c:36:27: error: invalid operands to binary expression ('char *' and 'int')
+                int funcYValues[argv[3] * 2 + 1];
+                                ~~~~~~~ ^ ~
+../EquationPlotter.c:40:15: error: invalid argument type 'char *' to unary expression
+                for(int i = -argv[3]; i < argv[3] + 1; i++){
+                            ^~~~~~~~
+../EquationPlotter.c:40:27: warning: ordered comparison between pointer and integer ('int' and 'char *')
+                for(int i = -argv[3]; i < argv[3] + 1; i++){
+                                      ~ ^ ~~~~~~~~~~~
+../EquationPlotter.c:42:46: error: invalid operands to binary expression ('char *' and 'double')
+                                funcYValues[index] += round(atof(argv[j] * pow(i, incriment)));
+                                                                 ~~~~~~~ ^ ~~~~~~~~~~~~~~~~~
+1 warning and 4 errors generated.
+make: *** [EquationPlotter.o] Error 1
+15:58:31 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -std=c99 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+Finished building: ../EquationPlotter.c
+ 
+Building target: CS1141 Program 1
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 1"  ./EquationPlotter.o   
+Finished building target: CS1141 Program 1
+ 
+16:07:05 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -std=c99 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+../EquationPlotter.c:35:27: error: invalid operands to binary expression ('char *' and 'int')
+                int funcXValues[argv[1] * 2 + 1];
+                                ~~~~~~~ ^ ~
+../EquationPlotter.c:36:27: error: invalid operands to binary expression ('char *' and 'int')
+                int funcYValues[argv[1] * 2 + 1];
+                                ~~~~~~~ ^ ~
+../EquationPlotter.c:40:15: error: invalid argument type 'char *' to unary expression
+                for(int i = -argv[1]; i < argv[1] + 1; i++){
+                            ^~~~~~~~
+../EquationPlotter.c:40:27: warning: ordered comparison between pointer and integer ('int' and 'char *')
+                for(int i = -argv[1]; i < argv[1] + 1; i++){
+                                      ~ ^ ~~~~~~~~~~~
+../EquationPlotter.c:43:47: error: invalid operands to binary expression ('char *' and 'double')
+                                        funcYValues[index] += round(atof(argv[j] * pow(i, incriment)));
+                                                                         ~~~~~~~ ^ ~~~~~~~~~~~~~~~~~
+1 warning and 4 errors generated.
+make: *** [EquationPlotter.o] Error 1
+17:38:50 **** Build of configuration Debug for project CS1141 Program 2 ****
+make all 
+Building file: ../NumberHunt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"NumberHunt.d" -MT"NumberHunt.d" -o "NumberHunt.o" "../NumberHunt.c"
+../NumberHunt.c:7:11: warning: incompatible pointer to integer conversion assigning to 'int' from 'char *' [-Wint-conversion]
+                randNum = argv[1];
+                        ^ ~~~~~~~
+../NumberHunt.c:9:13: warning: implicit declaration of function 'rand' is invalid in C99 [-Wimplicit-function-declaration]
+                randNum = rand() % 100 + 1;
+                          ^
+../NumberHunt.c:16:15: warning: format specifies type 'int *' but the argument has type 'int' [-Wformat]
+                scanf("%d", guess);
+                       ~~   ^~~~~
+3 warnings generated.
+Finished building: ../NumberHunt.c
+ 
+Building target: CS1141 Program 2
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 2"  ./NumberHunt.o   
+Finished building target: CS1141 Program 2
+ 
+17:41:30 **** Incremental Build of configuration Debug for project CS1141 Program 2 ****
+make all 
+make: Nothing to be done for `all'.
+17:41:39 **** Incremental Build of configuration Debug for project CS1141 Program 2 ****
+make all 
+make: Nothing to be done for `all'.
+17:42:11 **** Incremental Build of configuration Debug for project CS1141 Program 2 ****
+make all 
+Building file: ../NumberHunt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"NumberHunt.d" -MT"NumberHunt.d" -o "NumberHunt.o" "../NumberHunt.c"
+../NumberHunt.c:7:11: warning: incompatible pointer to integer conversion assigning to 'int' from 'char *' [-Wint-conversion]
+                randNum = argv[1];
+                        ^ ~~~~~~~
+../NumberHunt.c:9:13: warning: implicit declaration of function 'rand' is invalid in C99 [-Wimplicit-function-declaration]
+                randNum = rand() % 100 + 1;
+                          ^
+2 warnings generated.
+Finished building: ../NumberHunt.c
+ 
+Building target: CS1141 Program 2
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 2"  ./NumberHunt.o   
+Finished building target: CS1141 Program 2
+ 
+17:43:12 **** Incremental Build of configuration Debug for project CS1141 Program 2 ****
+make all 
+Building file: ../NumberHunt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"NumberHunt.d" -MT"NumberHunt.d" -o "NumberHunt.o" "../NumberHunt.c"
+../NumberHunt.c:7:11: warning: incompatible pointer to integer conversion assigning to 'int' from 'char *' [-Wint-conversion]
+                randNum = argv[1];
+                        ^ ~~~~~~~
+../NumberHunt.c:9:13: warning: implicit declaration of function 'rand' is invalid in C99 [-Wimplicit-function-declaration]
+                randNum = rand() % 100 + 1;
+                          ^
+2 warnings generated.
+Finished building: ../NumberHunt.c
+ 
+Building target: CS1141 Program 2
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 2"  ./NumberHunt.o   
+Finished building target: CS1141 Program 2
+ 
+17:46:14 **** Incremental Build of configuration Debug for project CS1141 Program 2 ****
+make all 
+Building file: ../NumberHunt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"NumberHunt.d" -MT"NumberHunt.d" -o "NumberHunt.o" "../NumberHunt.c"
+../NumberHunt.c:7:11: warning: incompatible pointer to integer conversion assigning to 'int' from 'char *' [-Wint-conversion]
+                randNum = argv[1];
+                        ^ ~~~~~~~
+../NumberHunt.c:9:13: warning: implicit declaration of function 'rand' is invalid in C99 [-Wimplicit-function-declaration]
+                randNum = rand() % 100 + 1;
+                          ^
+2 warnings generated.
+Finished building: ../NumberHunt.c
+ 
+Building target: CS1141 Program 2
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 2"  ./NumberHunt.o   
+Finished building target: CS1141 Program 2
+ 
+17:47:34 **** Incremental Build of configuration Debug for project CS1141 Program 2 ****
+make all 
+Building file: ../NumberHunt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"NumberHunt.d" -MT"NumberHunt.d" -o "NumberHunt.o" "../NumberHunt.c"
+../NumberHunt.c:7:11: warning: incompatible pointer to integer conversion assigning to 'int' from 'char *' [-Wint-conversion]
+                randNum = argv[1];
+                        ^ ~~~~~~~
+../NumberHunt.c:9:13: warning: implicit declaration of function 'rand' is invalid in C99 [-Wimplicit-function-declaration]
+                randNum = rand() % 100 + 1;
+                          ^
+2 warnings generated.
+Finished building: ../NumberHunt.c
+ 
+Building target: CS1141 Program 2
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 2"  ./NumberHunt.o   
+Finished building target: CS1141 Program 2
+ 
+17:47:55 **** Incremental Build of configuration Debug for project CS1141 Program 2 ****
+make all 
+make: Nothing to be done for `all'.
+17:49:34 **** Incremental Build of configuration Debug for project CS1141 Program 2 ****
+make all 
+Building file: ../NumberHunt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"NumberHunt.d" -MT"NumberHunt.d" -o "NumberHunt.o" "../NumberHunt.c"
+../NumberHunt.c:7:11: warning: incompatible pointer to integer conversion assigning to 'int' from 'char *' [-Wint-conversion]
+                randNum = argv[1];
+                        ^ ~~~~~~~
+../NumberHunt.c:9:13: warning: implicit declaration of function 'rand' is invalid in C99 [-Wimplicit-function-declaration]
+                randNum = rand() % 100 + 1;
+                          ^
+2 warnings generated.
+Finished building: ../NumberHunt.c
+ 
+Building target: CS1141 Program 2
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 2"  ./NumberHunt.o   
+Finished building target: CS1141 Program 2
+ 
+18:00:03 **** Incremental Build of configuration Debug for project CS1141 Program 2 ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+Finished building: ../GreedyPath.c
+ 
+Building file: ../NumberHunt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"NumberHunt.d" -MT"NumberHunt.d" -o "NumberHunt.o" "../NumberHunt.c"
+Finished building: ../NumberHunt.c
+ 
+Building target: CS1141 Program 2
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 2"  ./GreedyPath.o ./NumberHunt.o   
+Finished building target: CS1141 Program 2
+ 
+18:00:05 **** Incremental Build of configuration Debug for project CS1141 Program 2 ****
+make all 
+make: Nothing to be done for `all'.
+18:00:06 **** Incremental Build of configuration Debug for project CS1141 Program 2 ****
+make all 
+make: Nothing to be done for `all'.
+18:02:18 **** Incremental Build of configuration Debug for project CS1141 Program 2 ****
+make all 
+Building file: ../NumberHunt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"NumberHunt.d" -MT"NumberHunt.d" -o "NumberHunt.o" "../NumberHunt.c"
+Finished building: ../NumberHunt.c
+ 
+Building target: CS1141 Program 2
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 2"  ./GreedyPath.o ./NumberHunt.o   
+Finished building target: CS1141 Program 2
+ 
+18:02:20 **** Incremental Build of configuration Debug for project CS1141 Program 2 ****
+make all 
+make: Nothing to be done for `all'.
+18:02:22 **** Incremental Build of configuration Debug for project CS1141 Program 2 ****
+make all 
+make: Nothing to be done for `all'.
+18:02:24 **** Incremental Build of configuration Debug for project CS1141 Program 2 ****
+make all 
+make: Nothing to be done for `all'.
+18:06:28 **** Incremental Build of configuration Debug for project CS1141 Program 2 ****
+make all 
+Building file: ../NumberHunt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"NumberHunt.d" -MT"NumberHunt.d" -o "NumberHunt.o" "../NumberHunt.c"
+Finished building: ../NumberHunt.c
+ 
+Building target: CS1141 Program 2
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 2"  ./GreedyPath.o ./NumberHunt.o   
+Finished building target: CS1141 Program 2
+ 
+18:13:10 **** Incremental Build of configuration Debug for project CS1141 Program 2 ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+Finished building: ../GreedyPath.c
+ 
+Building target: CS1141 Program 2
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 2"  ./GreedyPath.o ./NumberHunt.o   
+duplicate symbol _main in:
+    ./GreedyPath.o
+    ./NumberHunt.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [CS1141 Program 2] Error 1
+18:13:26 **** Incremental Build of configuration Debug for project CS1141 Program 2 ****
+make all 
+Building target: CS1141 Program 2
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 2"  ./GreedyPath.o ./NumberHunt.o   
+duplicate symbol _main in:
+    ./GreedyPath.o
+    ./NumberHunt.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [CS1141 Program 2] Error 1
+18:14:29 **** Incremental Build of configuration Debug for project CS1141 Program 2 ****
+make all 
+Building target: CS1141 Program 2
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 2"  ./GreedyPath.o ./NumberHunt.o   
+duplicate symbol _main in:
+    ./GreedyPath.o
+    ./NumberHunt.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [CS1141 Program 2] Error 1
+18:16:26 **** Incremental Build of configuration Debug for project CS1141 Program 2 ****
+make all 
+Building target: CS1141 Program 2
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 2"  ./GreedyPath.o ./NumberHunt.o   
+duplicate symbol _main in:
+    ./GreedyPath.o
+    ./NumberHunt.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [CS1141 Program 2] Error 1
+18:24:51 **** Incremental Build of configuration Debug for project CS1141 Program 2 ****
+make all 
+Building target: CS1141 Program 2
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 2"  ./NumberHunt.o   
+Finished building target: CS1141 Program 2
+ 
+18:25:30 **** Incremental Build of configuration Debug for project CS1141 Program 2 ****
+make all 
+make: Nothing to be done for `all'.
+18:27:13 **** Incremental Build of configuration Debug for project CS1141 Program 2 ****
+make all 
+Building file: ../NumberHunt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"NumberHunt.d" -MT"NumberHunt.d" -o "NumberHunt.o" "../NumberHunt.c"
+Finished building: ../NumberHunt.c
+ 
+Building target: CS1141 Program 2
+Invoking: MacOS X C Linker
+gcc  -o "CS1141 Program 2"  ./NumberHunt.o   
+Finished building target: CS1141 Program 2
+ 
+14:16:42 **** Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+../GreedyPath.c:11:14: warning: format specifies type 'int *' but the argument has type 'int' [-Wformat]
+        scanf("%d", numPoints);
+               ~~   ^~~~~~~~~
+1 warning generated.
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+14:17:11 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+../GreedyPath.c:11:14: warning: format specifies type 'int *' but the argument has type 'int' [-Wformat]
+        scanf("%d", numPoints);
+               ~~   ^~~~~~~~~
+1 warning generated.
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+14:17:28 **** Build of configuration Debug for project Program 2 Number Hunt ****
+make all 
+Building file: ../NumberHunt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"NumberHunt.d" -MT"NumberHunt.d" -o "NumberHunt.o" "../NumberHunt.c"
+Finished building: ../NumberHunt.c
+ 
+Building target: Program 2 Number Hunt
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Number Hunt"  ./NumberHunt.o   
+Finished building target: Program 2 Number Hunt
+ 
+14:18:07 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+../GreedyPath.c:11:14: warning: format specifies type 'int *' but the argument has type 'int' [-Wformat]
+        scanf("%d", numPoints);
+               ~~   ^~~~~~~~~
+1 warning generated.
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+14:20:42 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+14:24:08 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+make: Nothing to be done for `all'.
+14:29:34 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+../GreedyPath.c:11:15: warning: format specifies type 'double *' but the argument has type 'int *' [-Wformat]
+        scanf("%lf", &numPoints);
+               ~~~   ^~~~~~~~~~
+               %d
+../GreedyPath.c:13:16: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+        printf("%lf", numPoints);
+                ~~~   ^~~~~~~~~
+                %d
+2 warnings generated.
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+14:46:51 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+14:50:35 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+14:57:27 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+../GreedyPath.c:16:34: warning: format specifies type 'double *' but the argument has type 'double' [-Wformat]
+                sscanf(argv[i + 2], "%lf %lf", points[0][i], points[1][i]);
+                                     ~~~       ^~~~~~~~~~~~
+../GreedyPath.c:16:48: warning: format specifies type 'double *' but the argument has type 'double' [-Wformat]
+                sscanf(argv[i + 2], "%lf %lf", points[0][i], points[1][i]);
+                                         ~~~                 ^~~~~~~~~~~~
+2 warnings generated.
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+14:57:42 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+../GreedyPath.c:16:34: warning: format specifies type 'double *' but the argument has type 'double' [-Wformat]
+                sscanf(argv[i + 2], "%lf %lf", points[0][i], points[1][i]);
+                                     ~~~       ^~~~~~~~~~~~
+../GreedyPath.c:16:48: warning: format specifies type 'double *' but the argument has type 'double' [-Wformat]
+                sscanf(argv[i + 2], "%lf %lf", points[0][i], points[1][i]);
+                                         ~~~                 ^~~~~~~~~~~~
+2 warnings generated.
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+14:58:17 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+14:59:27 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+../GreedyPath.c:13:9: warning: unused variable 'points' [-Wunused-variable]
+        double points[2][numPoints];
+               ^
+1 warning generated.
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+14:59:38 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+../GreedyPath.c:16:34: warning: format specifies type 'double *' but the argument has type 'double' [-Wformat]
+                sscanf(argv[i + 2], "%lf %lf", points[0][i], points[1][i]);
+                                     ~~~       ^~~~~~~~~~~~
+../GreedyPath.c:16:48: warning: format specifies type 'double *' but the argument has type 'double' [-Wformat]
+                sscanf(argv[i + 2], "%lf %lf", points[0][i], points[1][i]);
+                                         ~~~                 ^~~~~~~~~~~~
+2 warnings generated.
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+15:15:32 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+15:15:43 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+15:17:49 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+15:18:01 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+15:21:00 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+15:21:51 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+15:24:43 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+15:24:50 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+15:30:35 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+15:36:04 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+../GreedyPath.c:17:20: warning: format specifies type 'double' but the argument has type 'char *' [-Wformat]
+                        printf("%lf\n", argv[j + 2]);
+                                ~~~     ^~~~~~~~~~~
+                                %s
+1 warning generated.
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+15:36:21 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+../GreedyPath.c:17:20: warning: format specifies type 'double' but the argument has type 'char *' [-Wformat]
+                        printf("%lf\n", argv[j + 2]);
+                                ~~~     ^~~~~~~~~~~
+                                %s
+../GreedyPath.c:12:9: warning: unused variable 'points' [-Wunused-variable]
+        double points[2][numPoints];
+               ^
+2 warnings generated.
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+15:36:37 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+../GreedyPath.c:17:20: warning: implicit declaration of function 'atof' is invalid in C99 [-Wimplicit-function-declaration]
+                        printf("%lf\n", atof(argv[j + 2]));
+                                        ^
+../GreedyPath.c:17:20: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+                        printf("%lf\n", atof(argv[j + 2]));
+                                ~~~     ^~~~~~~~~~~~~~~~~
+                                %d
+../GreedyPath.c:12:9: warning: unused variable 'points' [-Wunused-variable]
+        double points[2][numPoints];
+               ^
+3 warnings generated.
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+15:38:24 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+../GreedyPath.c:13:9: warning: unused variable 'points' [-Wunused-variable]
+        double points[2][numPoints];
+               ^
+1 warning generated.
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+15:42:20 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+../GreedyPath.c:13:9: warning: unused variable 'points' [-Wunused-variable]
+        double points[2][numPoints];
+               ^
+1 warning generated.
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+15:42:36 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+../GreedyPath.c:13:9: warning: unused variable 'points' [-Wunused-variable]
+        double points[2][numPoints];
+               ^
+1 warning generated.
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+15:42:57 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+15:43:04 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+15:46:54 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+15:47:09 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+15:52:57 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+../GreedyPath.c:17:25: error: invalid operands to binary expression ('double' and 'double')
+                if((atof(argv[i + 2]) % 2) == 0){
+                    ~~~~~~~~~~~~~~~~~ ^ ~
+1 error generated.
+make: *** [GreedyPath.o] Error 1
+15:59:31 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+16:02:00 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+../GreedyPath.c:26:21: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                printf("%d %d\n", xVals[i], yVals[i]);
+                        ~~        ^~~~~~~~
+                        %f
+../GreedyPath.c:26:31: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                printf("%d %d\n", xVals[i], yVals[i]);
+                           ~~               ^~~~~~~~
+                           %f
+2 warnings generated.
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+16:02:22 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+../GreedyPath.c:17:17: warning: implicit declaration of function 'atofl' is invalid in C99 [-Wimplicit-function-declaration]
+                double temp = atofl(argv[i + 2]);
+                              ^
+../GreedyPath.c:25:21: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                printf("%d %d\n", xVals[i], yVals[i]);
+                        ~~        ^~~~~~~~
+                        %f
+../GreedyPath.c:25:31: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                printf("%d %d\n", xVals[i], yVals[i]);
+                           ~~               ^~~~~~~~
+                           %f
+3 warnings generated.
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Undefined symbols for architecture x86_64:
+  "_atofl", referenced from:
+      _main in GreedyPath.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Program 2 Greedy Path] Error 1
+16:02:38 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+../GreedyPath.c:25:21: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                printf("%d %d\n", xVals[i], yVals[i]);
+                        ~~        ^~~~~~~~
+                        %f
+../GreedyPath.c:25:31: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                printf("%d %d\n", xVals[i], yVals[i]);
+                           ~~               ^~~~~~~~
+                           %f
+2 warnings generated.
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+16:04:03 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+16:04:12 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 
+16:04:28 **** Incremental Build of configuration Debug for project Program 2 Greedy Path ****
+make all 
+Building file: ../GreedyPath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GreedyPath.d" -MT"GreedyPath.d" -o "GreedyPath.o" "../GreedyPath.c"
+Finished building: ../GreedyPath.c
+ 
+Building target: Program 2 Greedy Path
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Greedy Path"  ./GreedyPath.o   
+Finished building target: Program 2 Greedy Path
+ 

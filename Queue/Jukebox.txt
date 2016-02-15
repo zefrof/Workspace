@@ -1,0 +1,9 @@
+ADD One Piece At A Time,Johnny Cash
+ADD Ain't Necessarily So,Hugh Laurie
+ADD Be Still My Beating Heart, Sting
+PLAYNEXT
+ADD Caesar,I Blame Cococ
+PLAYNEXT
+PLAYNEXT
+ADD Cover My Eyes,La Roux
+PLAYNEXT

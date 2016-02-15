@@ -1,0 +1,15 @@
+14:17:28 **** Build of configuration Debug for project Program 2 Number Hunt ****
+make all 
+Building file: ../NumberHunt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"NumberHunt.d" -MT"NumberHunt.d" -o "NumberHunt.o" "../NumberHunt.c"
+Finished building: ../NumberHunt.c
+ 
+Building target: Program 2 Number Hunt
+Invoking: MacOS X C Linker
+gcc  -o "Program 2 Number Hunt"  ./NumberHunt.o   
+Finished building target: Program 2 Number Hunt
+ 
+
+14:17:28 Build Finished (took 175ms)
+

@@ -1,0 +1,25 @@
+16:07:05 **** Incremental Build of configuration Debug for project CS1141 Program 1 ****
+make all 
+Building file: ../EquationPlotter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -std=c99 -MMD -MP -MF"EquationPlotter.d" -MT"EquationPlotter.d" -o "EquationPlotter.o" "../EquationPlotter.c"
+../EquationPlotter.c:35:27: error: invalid operands to binary expression ('char *' and 'int')
+                int funcXValues[argv[1] * 2 + 1];
+                                ~~~~~~~ ^ ~
+../EquationPlotter.c:36:27: error: invalid operands to binary expression ('char *' and 'int')
+                int funcYValues[argv[1] * 2 + 1];
+                                ~~~~~~~ ^ ~
+../EquationPlotter.c:40:15: error: invalid argument type 'char *' to unary expression
+                for(int i = -argv[1]; i < argv[1] + 1; i++){
+                            ^~~~~~~~
+../EquationPlotter.c:40:27: warning: ordered comparison between pointer and integer ('int' and 'char *')
+                for(int i = -argv[1]; i < argv[1] + 1; i++){
+                                      ~ ^ ~~~~~~~~~~~
+../EquationPlotter.c:43:47: error: invalid operands to binary expression ('char *' and 'double')
+                                        funcYValues[index] += round(atof(argv[j] * pow(i, incriment)));
+                                                                         ~~~~~~~ ^ ~~~~~~~~~~~~~~~~~
+1 warning and 4 errors generated.
+make: *** [EquationPlotter.o] Error 1
+
+16:07:05 Build Finished (took 130ms)
+

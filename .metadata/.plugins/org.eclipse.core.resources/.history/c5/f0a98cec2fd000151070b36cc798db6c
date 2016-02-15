@@ -1,0 +1,14 @@
+/**
+ * Darren Wiltse
+ * dkwiltse@mtu.edu
+ * CS1141 Program 2
+ * GreedyPath:
+ */
+#import <stdio.h>
+
+int main(int argc, char** argv){
+	int numPoints = 0;
+	sscanf(argv[1],"%d", &numPoints);
+
+	printf("%d", numPoints);
+}

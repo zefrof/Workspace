@@ -1,0 +1,25 @@
+/**
+ * Darren Wiltse
+ * dkwiltse@mtu.edu
+ * CS1141 Program 2
+ * GreedyPath:
+ */
+#import <stdio.h>
+#import <stdlib.h>
+
+int main(int argc, char** argv){
+	int numPoints = 0;
+	sscanf(argv[1],"%d", &numPoints);
+	double points[2][numPoints];
+
+	for(int i = 0; i < 1; i++){
+		for(int j = 0; j < numPoints; j++){
+			sscanf(argv[j + 2], "%lf", &points[i][j]);
+			//printf("%lf\n", atof(argv[i + 2]));
+		}
+	}
+	for(int i = 0; i < numPoints; i++){
+			printf("%lf %lf\n", points[0][i], points[1][i]);
+		}
+	printf("\n%d", numPoints);
+}

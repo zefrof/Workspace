@@ -1,0 +1,1 @@
+NumberHunt.d: ../NumberHunt.c

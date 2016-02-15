@@ -1,0 +1,1 @@
+GreedyPath.d: ../GreedyPath.c

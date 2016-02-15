@@ -1,0 +1,1 @@
+EquationPlotter.d: ../EquationPlotter.c

@@ -8,6 +8,7 @@
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="/***"/>
 			<item value="vader.play"/>
 			<item value="tostring"/>
 			<item value="tosting"/>

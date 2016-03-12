@@ -31,6 +31,7 @@
 	<section name="ZipFileImportWizard">
 		<item value="false" key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
 		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="/Users/Darren/Downloads/unigram.zip"/>
 			<item value="/Users/Darren/Downloads/GreedyPath.zip"/>
 			<item value="/Users/Darren/Downloads/FIND IT.zip"/>
 		</list>

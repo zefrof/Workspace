@@ -2,25 +2,30 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="vader.play" key="selection"/>
-		<item value="false" key="casesensitive"/>
+		<item value="toString" key="selection"/>
+		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="toString"/>
+			<item value="tostring"/>
+			<item value="root"/>
+			<item value="java.util.Iterator; /** * A Binary Search Tree is a binary tree that has the property that for any * given node A in the tree, the value of the nodes in the left subtree are * less than the value of node A and the value of the nodes in the right subtree * are greater than the value of node A. * * @param */ public class BinarySearchTree&lt; T extends Comparable&lt; T &gt; &gt; extends AbstractBinarySearchTree&lt; T &gt; { /** * Returns an iterator that represents an inorder traversal on this binary tree. * * @return an iterator over the elements of this binary tree */ @Override public Iterator&lt; T &gt; iteratorInOrder( ) { // TODO Auto-generated method stub return null; } /** * Returns an iterator that represents a preorder traversal on this binary tree. * * @return an iterator over the elements of this binary tree */ @Override public Iterator&lt; T &gt; iteratorPreOrder( ) { // TODO Auto-generated method stub return null; } /** * Returns an iterator that represents a postorder traversal on this binary tree. * * @return an iterator over the elements of this binary tree */ @Override public Iterator&lt; T &gt; iteratorPostOrder( ) { // TODO Auto-generated method stub return null; } /** * Removes and returns the specified element from this tree. * * @param targetElement the element to be removed from the tree * @return the element to be removed from the tree */ @Override public T removeElement( T targetElement ) { // TODO Auto-generated method stub return null; } /** * Returns the node with the largest element in the subtree rooted at * the given node. * * @return the node with the largest element in the subtree */ @Override protected Node getMaxNode( Node node ) { // TODO Auto-generated method stub return null; } /** * Returns true if the binary tree contains an element that matches * the specified element and false otherwise. * * @param targetElement the element being sought in the tree * @return true if the tree contains the target element */ @Override public boolean contains( T targetElement ) { // TODO Auto-generated method stub return false; } }"/>
+			<item value="/*  * Copyright 2014, Michael T. Goodrich, Roberto Tamassia, Michael H. Goldwasser  *  * Developed for use with the book:  *  *    Data Structures and Algorithms in Java, Sixth Edition  *    Michael T. Goodrich, Roberto Tamassia, and Michael H. Goldwasser  *    John Wiley &amp; Sons, 2014  *  * This program is free software: you can redistribute it and/or modify  * it under the terms of the GNU General Public License as published by  * the Free Software Foundation, either version 3 of the License, or  * (at your option) any later version.  *  * This program is distributed in the hope that it will be useful,  * but WITHOUT ANY WARRANTY; without even the implied warranty of  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the  * GNU General Public License for more details.  *  * You should have received a copy of the GNU General Public License  * along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.  */"/>
+			<item value="A"/>
 			<item value="/***"/>
 			<item value="vader.play"/>
-			<item value="tostring"/>
-			<item value="tosting"/>
 		</list>
 		<list key="replacehistory">
+			<item value=""/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="265" key="DIALOG_WIDTH"/>
 		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
 		<item value="399" key="DIALOG_HEIGHT"/>
-		<item value="508" key="DIALOG_X_ORIGIN"/>
-		<item value="88" key="DIALOG_Y_ORIGIN"/>
+		<item value="933" key="DIALOG_X_ORIGIN"/>
+		<item value="127" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

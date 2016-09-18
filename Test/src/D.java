@@ -1,2 +1,2 @@
-class D extends C { 
+interface D implements A { 
 }

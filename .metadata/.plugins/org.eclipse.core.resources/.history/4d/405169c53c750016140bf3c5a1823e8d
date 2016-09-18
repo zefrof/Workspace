@@ -1,0 +1,53 @@
+import java.io.IOException;
+import java.math.BigInteger;
+import java.util.Scanner;
+
+public class HW1 {
+	
+	String[] registers = {"$zero", "$at", "$v0", "$v1", "$a0", "$a1", "$a2", "$a3",
+			"$t0", "$t1", "$t2", "$t3", "$t4", "$t5", "$t6", "$t7", "$s0", "$s1",
+			"$s2", "$s3", "$s4", "$s5", "$s6", "$s7", "$t8", "$t9", "$k0", "$k1",
+			"$gp", "$sp", "$fp", "$ra"};
+
+	public static void main(String[] args) throws IOException {
+		Scanner sc = new Scanner(System.in);
+		String input = sc.next().toString();
+		sc.close();
+		String bin = hexToBin(input);
+		String opCode = bin.substring(0, 6);
+		String info = bin.substring(6, bin.length());
+		
+		if(opCode.equals("000000")){
+			rFormat(info);
+		}
+		
+		//System.out.println(bin);
+		//System.out.println(opCode);
+		//System.out.println(info);
+	}
+	
+	static String hexToBin(String s) {
+		String temp = new BigInteger(s, 16).toString(2);
+		return String.format("%32s", temp).replace(" ", "0");
+	}
+	
+	static void rFormat(String con) {
+		String reg = con.substring(0, 20);
+		String funct = con.substring(20, con.length());
+		
+		if(funct.equals("100000")){
+			add(reg);
+		}
+	}
+	
+	static void add(String reg){
+		//System.out.println(reg);
+		String rs = reg.substring(0, 5);
+		String rt = reg.substring(5, 10);
+		String rd = reg.substring(10, 15);
+		
+		System.out.println(rs);
+		System.out.println(rt);
+		System.out.println(rd);
+	}
+}

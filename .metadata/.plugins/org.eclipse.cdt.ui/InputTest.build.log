@@ -1,0 +1,26 @@
+15:55:47 **** Incremental Build of configuration Debug for project InputTest ****
+make all 
+Building file: ../src/InputTest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/InputTest.d" -MT"src/InputTest.d" -o "src/InputTest.o" "../src/InputTest.c"
+../src/InputTest.c:16:14: warning: format specifies type 'char *' but the argument has type 'char **' [-Wformat]
+        scanf("%s", input);
+               ~~   ^~~~~
+../src/InputTest.c:16:14: warning: variable 'input' is uninitialized when used here [-Wuninitialized]
+        scanf("%s", input);
+                    ^~~~~
+../src/InputTest.c:15:14: note: initialize the variable 'input' to silence this warning
+        char** input;
+                    ^
+                     = NULL
+2 warnings generated.
+Finished building: ../src/InputTest.c
+ 
+Building target: InputTest
+Invoking: MacOS X C Linker
+gcc  -o "InputTest"  ./src/InputTest.o   
+Finished building target: InputTest
+ 
+
+15:55:47 Build Finished (took 177ms)
+

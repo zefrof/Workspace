@@ -1,2 +1,2 @@
-interface A {
+interface A implements D{
 }

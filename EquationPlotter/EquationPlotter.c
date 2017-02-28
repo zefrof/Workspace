@@ -1,6 +1,5 @@
 /**
  * Darren Wiltse
- * CS1141 Program 1
  * EquationPlotter; This program takes input from a user
  * and prints out a graph of an equation.
  */

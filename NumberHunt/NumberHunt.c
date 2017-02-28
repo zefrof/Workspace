@@ -1,7 +1,5 @@
 /**
  * Darren Wiltse
- * dkwiltse@mtu.edu
- * CS1141 Program 2
  * NumberHunt: This program randomly generates a number between 1 and 100.
  * Then the user tries to guess the number.
  */

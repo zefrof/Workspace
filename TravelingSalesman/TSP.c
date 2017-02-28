@@ -1,7 +1,7 @@
 /**
  * Darren Wiltse
- * dkwiltse@mtu.edu
- * CS1141 Traveling Salesman
+ * dkwiltse@gmail.com
+ * Traveling Salesman
  */
 
 #include <stdio.h>

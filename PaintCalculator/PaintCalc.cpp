@@ -1,6 +1,5 @@
 /**
  * Darren Wiltse
- * CS1141
  *
  * Prompts user for input and calculates the amount of paint and tape needed
  */

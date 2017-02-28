@@ -1,7 +1,5 @@
 /**
  * Darren Wiltse
- * dkwiltse@mtu.edu
- * CS1141 Program 2
  * GreedyPath:
  */
 #import <stdio.h>

@@ -1,6 +1,5 @@
 /**
  * Darren Wiltse
- * CS1141
  *
  * This defines the window object
  */

@@ -1,7 +1,6 @@
 /***
  *
  * Darren Wiltse
- * CS1141
  *
  */
 #ifndef KEY_H

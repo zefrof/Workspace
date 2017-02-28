@@ -5,7 +5,5 @@ public class GenericsExample {
 		KeyValuePair<String, Integer> foo = new KeyValuePair<String, Integer> ("A", 5);
 		int bar = foo.getValue();
 		System.out.println(bar);
-
 	}
-
 }

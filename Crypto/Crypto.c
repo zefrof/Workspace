@@ -1,7 +1,7 @@
 /***
  *
  * Darren Wiltse
- * CS1141
+ * Encrypts files based on a user selected key. 
  *
  */
 #include <stdio.h>
